@@ -1,0 +1,53 @@
+:root {
+    --background-color: #fff;
+    --article-background-color: #eee;
+    --text-color: #000;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #000;
+        --article-background-color: #666;
+        --text-color: #fff;
+    }
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+}
+
+main {
+    padding: 20px;
+    width: 100vh;
+    max-width: 500px;
+    min-height: 100vh;
+    background-color: var(--article-background-color);
+}
+
+h1 {
+    width: 100%;
+    border-bottom: 2px #000 solid;
+}
+
+h2 {
+    width: 100%;
+    border-bottom: 1px #ddd solid;
+}
+
+img {
+    max-height: 30%;
+}
+
+blockquote {
+    padding: 10px 5px;
+    border: 2px skyblue solid;
+    border-radius: 6px;
+}
