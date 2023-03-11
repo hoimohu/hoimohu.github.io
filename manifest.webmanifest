@@ -17,5 +17,5 @@
     "start_url": "\/",
     "theme_color": "#7a72c5",
     "background_color": "#ffffff",
-    "display": "minimal-ui"
+    "display": "browser"
 }
